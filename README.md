@@ -6,7 +6,8 @@ later call upon).
 
 To request data from the microservice, main.py needs to call the microservice file, like this call that I included in my copy of main.py to access the microservice:
 
-```@app.route("/lookup-ingredients", methods=['GET','POST'])
+```
+@app.route("/lookup-ingredients", methods=['GET','POST'])
 def lookup_ingredients():
     ingredient = None
     ingredient_safety = None
@@ -15,10 +16,13 @@ def lookup_ingredients():
         microservice_url = 'http://127.0.0.1:5001/lookup-ingredients'
         response = requests.post(microservice_url, data={'ingredient':ingredient})
         ingredient_safety = response.text
-    return render_template("ing_page.html", ingredient=ingredient, safety_info=ingredient_safety)```
+    return render_template("ing_page.html", ingredient=ingredient, safety_info=ingredient_safety)
+```
 The microservice file will then return the data with this call:
-```@app.route("/lookup-ingredients", methods=['POST'])
+```
+@app.route("/lookup-ingredients", methods=['POST'])
 def lookup_ingredients():
     ingredient = request.form['ingredient'].lower()
     ingredient_safety = read_safety_info().get(ingredient, "Ingredient not found")
-    return ingredient_safety```
+    return ingredient_safety
+```
