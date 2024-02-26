@@ -7,6 +7,7 @@ later call upon).
 To request data from the microservice, main.py needs to call the microservice file, like this call that I included in my copy of main.py to access the microservice:
 
 " @app.route("/lookup-ingredients", methods=['GET','POST'])
+
 def lookup_ingredients():
     ingredient = None
     ingredient_safety = None
@@ -18,6 +19,7 @@ def lookup_ingredients():
     return render_template("ing_page.html", ingredient=ingredient, safety_info=ingredient_safety)"
 
 The microservice file will then return the data with this call:
+
 "@app.route("/lookup-ingredients", methods=['POST'])
 def lookup_ingredients():
     ingredient = request.form['ingredient'].lower()
