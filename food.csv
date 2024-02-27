@@ -1,0 +1,181 @@
+Ingredient,Safety
+
+Chicken,Safe
+Beef,Safe
+Turkey,Safe
+Salmon,Safe
+Tuna,Safe
+Shrimp,Safe
+Pork,Safe
+Mushrooms,Safe
+Mushroom,Safe
+Peanuts,Safe
+Hazelnut,Safe
+Hazelnuts,Safe
+Pine nuts,Safe
+Pine nut,Safe
+Sweet Potatoes,Safe
+Sweet Potato,Safe
+Brown Rice,Safe
+White Rice,Safe
+Oats,Safe
+Oatmeal,Safe
+Quinoa,Safe
+Bread,Safe
+Potatoes,Safe
+Cabbage,Safe
+Bok Choy,Safe
+Olives,Safe
+Olive oil,Safe
+Eggplant,Safe
+Artichoke hearts,Safe
+Artichoke heart,Safe
+Brussel sprouts,Safe
+Kale,Safe
+Chard,Safe
+Lettuce,Safe
+Swiss Chard,Safe
+Mustard greens,Safe
+Asparagus,Safe
+Potato,Safe
+Carrots,Safe
+Carrot,Safe
+Broccoli,Safe
+Cauliflower,Safe
+Celery,Safe
+Corn,Safe
+Cucumber,Safe
+Cucumbers,Safe
+Peas,Safe
+Green Beans,Safe
+Green Bean,Safe
+Spinach,Safe
+Pumpkin,Safe
+Pumpkins,Safe
+Beets,Safe
+Beet,Safe
+Butternut squash,Safe
+Basil,Safe
+Chamomile,Safe
+Cilantro,Safe
+Kohlrabi,Safe
+Lima Beans,Safe
+Black beans,Safe
+Kindey Beans,Safe
+Pinto beans,Safe
+Garbanzo beans,Safe
+Chickpeas,Safe
+Navy beans,
+Edamame,Safe
+Soybeans,Safe
+Parsnips,Safe
+Parsnip,Safe
+Bell peppers,Safe
+Bell pepper,Safe
+Sweet peppers,Safe
+Sweet pepper,Safe
+Acorn squash,Safe
+Spaghetti squash,Safe
+Squash,Safe
+Zucchini,Safe
+Summer squash,Safe
+Dill,Safe
+Ginger,Safe
+Mint,Safe
+Parsley,Safe
+Rosemary,Safe
+Sage,Safe
+Turmeric,Safe
+Apples,Safe
+Apple,Safe
+Blueberries,Safe
+Blueberry,Safe
+Blackberries,Safe
+Blackberry,Safe
+Strawberries,Safe
+Strawberry,Safe
+Bananas,Safe
+Banana,Safe
+Watermelon,Safe
+Watermelons,Safe
+Pineapple,Safe
+Pineapples,Safe
+Coconut,Safe
+Coconuts,Safe
+Mango,Safe
+Mangoes,Safe
+Eggs,Safe
+Egg,Safe
+Flaxseed,Safe
+Coconut Oil,Safe
+Sunflower Seeds,Safe
+Flax seeds,Safe
+Chia seeds,Safe
+Pumpkin seeds,Safe
+Popcorn,Safe
+
+Chocolate,Toxic
+Green onions,Toxic
+Green onion,Toxic
+Tomatillo,Toxic
+Tomatillos,Toxic
+Hummus,Toxic
+Grapes,Toxic
+Raisins,Toxic
+Onions,Toxic
+Onion,Toxic
+Garlic,Toxic
+Chives,Toxic
+Avocado,Toxic
+Avocados,Toxic
+Macadamia Nuts,Toxic
+Macadamia Nut,Toxic
+Black walnuts,Toxic
+Black walnut,Toxic
+Rhubarb,Toxic
+Xylitol,Toxic
+Nutmeg,Toxic
+Leeks,Toxic
+Leek,Toxic
+Bay leaf,Toxic
+Bay leaves,Toxic
+Cocoa powder,Toxic
+Cocoa,Toxic
+Marjoram,Toxic
+Mustard seed,Toxic
+Mustard seeds,Toxic
+Mustad powder,Toxic
+Onion powder,Toxic
+Spanish thyme,Toxic
+Pecans,Toxic
+Pecan,Toxic
+Walnuts,Toxic
+Walnut,Toxic
+
+Salt,Limit
+Almonds,Limit
+Pistachios,Limit
+Pistachio,Limit
+Cinnamon,Limit
+Honey,Limit
+Allspice,Limit
+Cloves,Limit
+
+Milk,Dairy
+Cottage Cheese,Dairy
+Plain Yogurt,Dairy
+Greek Yogurt,Dairy
+Cheese,Dairy
+Cheddar Cheese,Dairy
+Swiss Cheese,Dairy
+Havarti,Dairy
+Gouda,Dairy
+Mozzarella,Dairy
+American Cheese,Dairy
+
+Tomatoes,Tomato
+Tomato, Tomato
+
+Cashews,Cashew
+Cashew,Cashew
+Peanut Butter,Peanut
