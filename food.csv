@@ -2,6 +2,9 @@ Ingredient,Safety
 
 Chicken,Safe
 Beef,Safe
+Ground beef,Safe
+Liver,Safe
+Lamb,Safe
 Turkey,Safe
 Salmon,Safe
 Tuna,Safe
@@ -153,6 +156,7 @@ Walnuts,Toxic
 Walnut,Toxic
 
 Salt,Limit
+Sugar,Limit
 Almonds,Limit
 Pistachios,Limit
 Pistachio,Limit
