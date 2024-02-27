@@ -6,18 +6,19 @@
 {% block form %}
 <form method="POST">
     <div>
-        
+    <!-- Ingredient search bar -->
         <label for="ingredient">Ingredient:</label>
         <input type="text" name="ingredient" required>
 
         <button type="submit">Enter</button>
     </div>
 </form>
+    <!-- Text block that appears once user enters an ingredient -->
     {% if safety_info %}
         <h2>Safety information for {{ ingredient }}:</h2>
         <p>{{ safety_info }}</p>
     {% endif %}
-
-    <button type="submit">Back to New Recipe page</button>
-
+    <!-- button to return back to newRecipe.html page -->
+    <a href="{{ url_for('newRecipe') }}"><button id="returnButton">Return</button></a>
+ 
 {% endblock %}
