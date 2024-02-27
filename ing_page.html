@@ -1,0 +1,23 @@
+
+{% block header %}
+<h1>Ingredient Lookup</h1>
+{% endblock %}
+
+{% block form %}
+<form method="POST">
+    <div>
+        
+        <label for="ingredient">Ingredient:</label>
+        <input type="text" name="ingredient" required>
+
+        <button type="submit">Enter</button>
+    </div>
+</form>
+    {% if safety_info %}
+        <h2>Safety information for {{ ingredient }}:</h2>
+        <p>{{ safety_info }}</p>
+    {% endif %}
+
+    <button type="submit">Back to New Recipe page</button>
+
+{% endblock %}
