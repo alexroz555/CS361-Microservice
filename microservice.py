@@ -36,13 +36,12 @@ def lookup_ingredients():
     return ingredient_safety
 
 #go back to previous page
-@app.route("/newRecipe", methods=['GET','POST'])
+@app.route("/newRecipe", methods=['GET'])
 def return_home():
     if request.method == 'GET':
-        return render_template("newRecipe.html")
-    elif request.method == 'POST':
-        return redirect(url_for('new_recipe'))
+        return redirect(url_for("newRecipe"))
 
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
+
