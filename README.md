@@ -26,3 +26,5 @@ def lookup_ingredients():
     ingredient_safety = read_safety_info().get(ingredient, "Ingredient not found")
     return ingredient_safety
 ```
+
+![image](https://github.com/alexroz555/CS361-Microservice/assets/114452472/f77c251f-5476-465d-881e-d6c534cca4bf)
